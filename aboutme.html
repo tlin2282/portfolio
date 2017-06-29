@@ -5,25 +5,27 @@
 <body style="background-color:#000000;">
 <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
  
- <h1 style="color:white; font-family: 'Concert One', cursive;text-align:center;">My Portfolio</h1>
-
-<pre style="color:white;text-align:center; ">Hello, my name is Tiffany Lin. Welcome to my portfolio. Scroll down to get to
- know me better and to see the projects I have done.</pre>
-  <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#">Likes and Dislikes</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
-div {
-  position: relative;
-  display: inline;
+<head>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello, my name is Tiffany Lin. Welcome to my portfolio.
+  Scroll down to get to know me better and to see the projects I have done.";
 }
-.imtip {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
+</script>
+</head>
+
+<body>
+
+<h2 id="demo">My Portfolio</h2>
+
+<button type="button" onclick="myFunction()">Click Me</button>
+
+</body>
   <IMG HEIGHT="500" WIDTH="1500" SRC="http://namonitore.ru/uploads/catalog/leto/shrilanka_vadduva_palmi_1600.jpg">
 
 </body>
