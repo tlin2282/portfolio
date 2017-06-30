@@ -99,6 +99,12 @@ body {font-family: Verdana,sans-serif;}
   <img src="Canada_Parks_Mountains_487972_1280x720.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
+  function diffImage(img) 
+{
+   if(img.src.match(/blank/)) img.src = "left.png";
+   else img.src = "left.png";
+}
+  <img src="left.png id="image1" onclick=diffImage(this) />
 
 </div>
 <br>
